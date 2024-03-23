@@ -31,12 +31,13 @@ export default function Home() {
         </aside>
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-4xl text-center font-serif " >Química Quântica</h1>
-          <p className="text-center text-lg font-thin mx-5">Seja bem vindo ao site com toda a matéria da professora Grazielli</p>
+          <p className="text-center text-lg font-thin mx-5">Seja bem vindo ao site com toda a matéria da professora Grazieli</p>
           <Image 
             src={"/rutterford_model.gif"}
             alt="Modelo atômico de Rutterford" 
             width={500} height={500}
-            className="m-2 "  
+            className="m-2 "
+            unoptimized  
           />
           <span><MathComponent equation={"E = mc^2"}/></span>
           <span><MathComponent equation={"E = h \\nu"}/></span>
