@@ -8,9 +8,9 @@ export default function Home() {
     <main className="flex gap-5 flex-col">
       <Header />
       <div className="flex gap-32">
-        <aside className="flex flex-col gap-4 px-10 pr-40 items-center justify-start">
+        <aside className="flex flex-col gap-4 px-10 items-center justify-start">
           <h3 className="text-2xl font-serif">Capítulos</h3>
-          <a href="/capitulos/capitulo1" className=" text-lg font-thin hover:text-yellow-300">
+          <a href="/capitulos/capitulo1" className="text-lg font-thin hover:text-yellow-300">
             Capítulo 1
           </a>
           <a href="/capitulos/capitulo2" className="text-lg font-thin hover:text-yellow-300">
@@ -29,8 +29,8 @@ export default function Home() {
             Capítulo 6
           </a>
         </aside>
-        <div className="flex flex-col items-center gap-5">
-          <h1 className="text-4xl text-center font-serif " >Química Quântica</h1>
+        <div className="flex flex-col items-center w-full gap-5">
+          <h1 className="text-4xl text-center font-serif">Química Quântica</h1>
           <p className="text-center text-lg font-thin mx-5">Seja bem vindo ao site com toda a matéria da professora Grazieli</p>
           <Image 
             src={"/rutterford_model.gif"}
